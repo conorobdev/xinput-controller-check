@@ -1,0 +1,19 @@
+{
+    "configurations": [
+      {
+        "name": "Win32",
+        "includePath": [
+          "${env:ProgramFiles(x86)}/Windows Kits/10/Include/**",
+          "${env:ProgramFiles(x86)}/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/**/include"
+        ],
+        "defines": [
+          "_DEBUG",
+          "UNICODE"
+        ],
+        "windowsSdkVersion": "10.0.22621.0",
+        "compilerPath": "cl.exe",
+        "intelliSenseMode": "windows-msvc-x64"
+      }
+    ],
+    "version": 4
+  }
